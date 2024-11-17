@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Article</title>
+    <link rel="stylesheet" href="../estils/style.css">
+</head>
+<body>
+    <form action="../controladores/modificar.php" method="POST">
+        <h2>Modificar Article</h2>
+        <label for="id">ID de l'Article:</label>
+        <input type="text" id="id" name="id" required>
+        <label for="nombre">Nom de l'Article:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="cuerpo">Cos de l'Article:</label>
+        <textarea id="cuerpo" name="cuerpo" required></textarea>
+        <button type="submit">Modificar</button>
+    </form>
+</body>
+</html>
